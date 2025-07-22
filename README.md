@@ -29,20 +29,20 @@ Designed for Amazon FBA sellers to:
 amazon_review_alert/
 
 ├── main.py                (Entry point for pipeline)
-|
+
 ├── analyze.py             (LLM/VADER-based sentiment & topic extractor)
-|
+
 ├── fetch_reviews.py       (Scrapes reviews using Amazon Product API or HTML parser)
-|
+
 ├── utils.py               (Helper functions (e.g., deduplication, formatting)
-|
+
 ├── alert.py               (Alert system (Slack/email/webhook))
-|
+
 ├── store.py               (Google Sheets/Airtable writer)
-|
+
 ├── requirements.txt
-|
+
 ├── .env                   (API keys & configuration)
-|
+
 └── README.md
 
